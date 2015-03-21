@@ -1,0 +1,9 @@
+<ul class="posts">
+    {{#foreach posts}}
+        {{> excerpt this}}
+    {{/foreach}}
+</ul>
+
+<footer id="index-meta">
+    {{pagination}}
+</footer>

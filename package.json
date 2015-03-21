@@ -1,0 +1,15 @@
+{
+  "name": "tylersmith.co",
+  "version": "1.0.0",
+  "description": "A clean ghost theme for tylersmith.co",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Tyler Smith <tylertsmith14@gmail.com>",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "http://tylersmith.co",
+  "private": true
+}
