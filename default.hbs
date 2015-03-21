@@ -4,7 +4,6 @@
         {{! Document settings and metadata }}
         <title>{{meta_title}}</title>
         <meta charset="utf-8" />
-        <meta name="designer" content="Hayden Bleasel" />
         <meta name="rating" content="general" />
         <meta name="keywords" content="ghost, blog, {{meta_title}}" />
 
@@ -31,7 +30,7 @@
         {{#if @blog.cover}}<meta property="twitter:image" content="{{@blog.cover}}" />{{/if}}
 
         {{! Icons }}
-        <link rel="icon" href="{{asset 'favicon.ico'}}" />
+        <link rel="icon" href="{{asset 'images/favicon.ico'}}" />
         <link rel="icon" sizes="196x196" href="{{asset 'images/android-homescreen.png'}}" />
         <link rel="apple-touch-icon" href="{{asset 'images/apple-touch-icon.png'}}" />
 
@@ -44,9 +43,6 @@
         {{! Scripts and Stylesheets }}
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Viga|Rancho|Source+Code+Pro' type='text/css'>
         <link rel="stylesheet" href="{{asset 'css/normalize.css'}}" />
-<!--        <link rel="stylesheet" href="{{asset 'css/basics.css'}}" />-->
-<!--        <link rel="stylesheet" href="{{asset 'css/gist.css'}}" />-->
-<!--        <link rel="stylesheet" href="{{asset 'css/cactus.css'}}" />-->
         <link rel="stylesheet" href="{{asset 'css/smitty.css'}}" />
         <script src="{{asset 'js/html5shiv-printshiv.js'}}"></script>
         <script src="{{asset 'js/respond.js'}}"></script>
@@ -101,7 +97,6 @@
         {{ghost_foot}}
 
         {{! Deferred scripts }}
-<!--        <script src="{{asset 'js/fastclick.js'}}"></script>-->
         <script src="{{asset 'js/smitty.js'}}"></script>
 
     </body>
